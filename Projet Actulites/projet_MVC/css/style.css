@@ -1,0 +1,95 @@
+/* public/css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+body *:not(h1) {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid #fff; /* Ajout d'une bordure blanche en bas de l'en-tête */
+}
+
+
+nav table {
+    margin: 0 auto;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    border-collapse: collapse; /* Ajouté pour éviter l'espace double entre les bordures */
+}
+
+nav table, nav table td {
+    border: 2px solid #fff; /* Bordure blanche pour le tableau et les cellules */
+}
+
+nav table td {
+    padding: 10px 20px;
+}
+
+nav table td a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.news {
+    text-align: left; /* Aligner le texte à gauche */
+    margin: 0 auto; /* Centrer le contenu horizontalement */
+    max-width: 90%; /* Définir une largeur maximale pour le contenu */
+    padding: 0 20px; /* Ajouter un espace intérieur pour l'espacement */
+}
+
+.news-item {
+    background-color: rgba(228, 228, 235, 0.329);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-item:hover {
+    background-color: #fff;
+}
+
+.news-item h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.news-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border: 2px solid #fff; /* Ajout d'une bordure blanche autour du footer */
+}
