@@ -1,5 +1,5 @@
 <footer>
-        <p>Copyright © DGI 2019</p>
+        <p>Copyright © DGI 2024</p>
     </footer>
 </body>
 </html>
