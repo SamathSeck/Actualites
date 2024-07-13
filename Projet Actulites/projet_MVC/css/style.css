@@ -1,4 +1,3 @@
-/* public/css/styles.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -19,7 +18,7 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    border-bottom: 2px solid #fff; /* Ajout d'une bordure blanche en bas de l'en-tête */
+    border-bottom: 2px solid #fff;
 }
 
 
@@ -27,11 +26,10 @@ nav table {
     margin: 0 auto;
     margin-top: -10px;
     margin-bottom: -10px;
-    border-collapse: collapse; /* Ajouté pour éviter l'espace double entre les bordures */
-}
+    border-collapse: collapse;
 
 nav table, nav table td {
-    border: 2px solid #fff; /* Bordure blanche pour le tableau et les cellules */
+    border: 2px solid #fff;
 }
 
 nav table td {
@@ -55,10 +53,10 @@ main {
 }
 
 .news {
-    text-align: left; /* Aligner le texte à gauche */
-    margin: 0 auto; /* Centrer le contenu horizontalement */
-    max-width: 90%; /* Définir une largeur maximale pour le contenu */
-    padding: 0 20px; /* Ajouter un espace intérieur pour l'espacement */
+    text-align: left;
+    margin: 0 auto;
+    max-width: 90%; 
+    padding: 0 20px; 
 }
 
 .news-item {
@@ -91,5 +89,5 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    border: 2px solid #fff; /* Ajout d'une bordure blanche autour du footer */
+    border: 2px solid #fff;
 }
