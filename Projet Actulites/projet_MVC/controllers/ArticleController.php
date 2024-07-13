@@ -9,7 +9,6 @@ class ArticleController {
     }
 
     public function accueil() {
-        // Par exemple, récupérez ici les derniers articles pour la page d'accueil
         $articles = $this->articleService->getLatestArticles();
         include 'views/accueil.php';
     }
@@ -33,7 +32,5 @@ class ArticleController {
         $articles = $this->articleService->getArticlesByCategory('Education');
         include 'views/education.php';
     }
-
-    // Ajoutez d'autres méthodes pour les autres catégories ou actions si nécessaire
 }
 ?>
