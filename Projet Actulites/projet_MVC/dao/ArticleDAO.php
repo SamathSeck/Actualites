@@ -31,7 +31,7 @@ class ArticleDAO {
 
     public static function getLatestArticles() {
         $conn = connectDB();
-        $sql = "SELECT * FROM Article ORDER BY dateCreation DESC LIMIT 5"; // Récupère les 5 derniers articles par date de création décroissante
+        $sql = "SELECT * FROM Article ORDER BY dateCreation DESC LIMIT 5";
         $result = $conn->query($sql);
         $articles = [];
 
